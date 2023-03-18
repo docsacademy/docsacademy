@@ -8,7 +8,7 @@ title = "DocsAcademy"
 # disable language
 disableLanguages = []
 # google analytics
-googleAnalytics = G-HJ6VE57QCX
+googleAnalytics = "G-HJ6VE57QCX"
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
