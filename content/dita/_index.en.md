@@ -1,21 +1,21 @@
 ---
-title: "Основы работы с DITA"
+title: "Basics of working with DITA"
 date: 2023-01-28T11:02:05+06:00
 icon: "ti-package"
-description: "Начните работать с DITA"
+description: "Make your content more effective"
 type : "docs"
 ---
 
-DITA (Darwin Information Typing Architecture) представляет собой открытый стандарт, разработанный в конце
-20-го века компанией IBM. В 2005 г. права на дальнейшую разработку стандарта перешли к организации OASIS
-(Organization for the Advancement of Structured Information Standards). В 2005 г. была выпущена версия 1
-спецификации DITA. Версии 1.1 и 1.2 последовали в 2007 г. и 2010 г., соответственно.
+DITA (Darwin Information Typing Architecture) is an open standard developed in the late 20th century by
+IBM. In 2005, OASIS (Organization for the Advancement of Structured Information Standards) took over the
+rights for further development of the standard. Version 1 of the DITA specification was released in 2005.
+Versions 1.1 and 1.2 followed in 2007 and 2010, respectively.
 
-DITA - приложение XML, предназначенное для создания, организации и управления контентом и основывающееся
-на следующих принципах:
+DITA is an XML application for creating, organizing, and managing content based on the following principles:
 
-* Модулярное создание контента в виде топиков
-* Разделение содержания и форматирования▪Минимализм
-* Структурированный подход к созданию документации
+* Modular content creation in the form of topics
+* Separation of content and formatting
+* Minimalism
+* A structured approach to the creation of documentation
 
-Так как речь идет о приложении XML, для работы с файлами DITA можно использовать любой текстовый редактор.
+Since this is an XML application, you can use any text editor to work with DITA files.

@@ -1,35 +1,33 @@
 ---
-title: "Элементы DITA"
+title: "DITA elements"
 date: 2023-02-09T11:02:05+06:00
 lastmod: 2023-02-09T11:02:05+06:00
 weight: 1
 draft: false
 # search related keywords
-keywords: ["элементы"]
+keywords: ["elements"]
 ---
 
-В DITA определен свой набор тегов, называемых элементами. Элементы в DITA используются для семантического
-оформления содержимого. Например, элемент **section** используется для разделов, а **image** - для графических
-изображений. Некоторые из тегов, нашедших применение в DITA, знакомы нам по HTML:
+DITA defines its own set of tags called elements. Elements in DITA are used to semantically shape content.
+For example, the **section** element is used for sections, and **image** is used for graphical images. Some
+of the tags used in DITA are familiar from HTML:
 
-* **p** для абзацей
-* **ol** для нумерированных списков
-* **ul** для ненумерированных списков
+* **p** for paragraphs
+* **ol** for ordered lists
+* **ul** for unordered lists
 
-Корневой элемент в DITA различается в зависимости от типа топика:
+The root element in DITA differs depending on the type of topic:
 
-* **concept** для концептов
-* **task** для процедур
-* **reference** для справочной информации
+* **concept** for concepts
+* **task** for procedures
+* **reference** for reference information
 
-Элементы DITA обладают собственной иерархией и связаны друг с другом особым образом. Для каждого элемента
-определен набор элементов, в которых он может содержаться или которые он может содержать. Кроме того,
-DITA задает, в какой последовательность элементы должны следовать друг за другом и какое количество элементов
-можно использовать.
+DITA elements have their own hierarchy and are connected to each other in a special way. For each element, a set
+of elements is defined that may contain this element or that may be contained in this element. In addition, DITA
+specifies in what sequence the elements should follow each other and how many elements may be used.
 
-Например, простая таблица **simpletable** может иметь заголовок, за которым обязательно должны располагаться
-одна или более стандартных ячеек таблицы. Таким образом, в качестве нарушения будет рассматриваться одна из
-следующих ситуаций:
+For example, a simple table **simpletable** can have a header followed by one or more standard table cells. Thus,
+one of the following situations will be considered a violation:
 
-* Заголовок находится в середине таблицы.
-* В таблице отсутствуют стандартные ячейки.
+* The header is in the middle of the table.
+* There are no standard cells in the table.

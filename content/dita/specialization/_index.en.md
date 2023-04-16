@@ -3,7 +3,7 @@ title: "Специализация"
 date: 2023-02-11T11:02:05+06:00
 lastmod: 2023-02-11T11:02:05+06:00
 weight: 5
-draft: false
+draft: true
 # search related keywords
 keywords: ["специализация"]
 ---

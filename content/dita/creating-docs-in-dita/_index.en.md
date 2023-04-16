@@ -1,5 +1,5 @@
 ---
-title: "Процесс создания документации в DITA"
+title: "Creating documentation with DITA - main steps"
 date: 2023-02-10T11:02:05+06:00
 lastmod: 2023-02-10T11:02:05+06:00
 weight: 3
@@ -8,8 +8,8 @@ draft: false
 keywords: [""]
 ---
 
-Процесс создания документации в DITA можно описать следующим образом:
+The process of creating documentation with DITA can be described as follows:
 
-* На первом этапе создаются так называемые топики DITA, содержащие соответствующий контент.
-* В картах DITA определяется, какие топики должны быть включены в какие конечные документы.
-* Наконец, задается выходной формат конечных документов (PDF, HTML, ePub и т.д.).
+* In the first step, so-called DITA topics are created that contain relevant content.
+* Next, DITA maps are defined that determine which topics should be included in which final documents.
+* Finally, the output format of the final documents is specified (PDF, HTML, ePub, etc.).

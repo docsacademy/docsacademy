@@ -1,57 +1,57 @@
 ---
-title: "Топики DITA"
+title: "DITA topics"
 date: 2023-02-10T11:02:05+06:00
 lastmod: 2023-02-10T11:02:05+06:00
 weight: 2
 draft: false
 # search related keywords
-keywords: ["основные понятия"]
+keywords: ["topics"]
 ---
 
-Основной информационной единицей в DITA является топик. Каждый топик описывает только одну тему / отвечает
-только на один вопрос. Созданные топики можно использовать и переиспользовать в нескольких документах в
-различном порядке.
+The basic unit of information in DITA is a topic. Each topic describes only one subject / answers only
+one question. Created topics can be used and reused in several documents in a different order.
 
-Топики DITA организуются в так называемые карты, похожие на оглавление книги. В картах можно задавать
-последовательность топиков и их иерархию.
+DITA topics are organized into so-called maps, similar to the table of contents of a book. In maps, you
+can specify the sequence of topics and their hierarchy.
 
-При создании топиков следует руководствоваться следующими принципами:
+The following principles should guide the creation of topics:
 
-* Один топик охватывает только одну тему / отвечает только на один вопрос.
-* Топик содержит достаточно информации, чтобы являться самостоятельной информационной единицей.
-* Топик не является контекстнозависимым. Это означает, что информация, предшествующая топику или следующая за ним,
-является нерелевантной.
-* Один файл содержит только один топик.
+* One topic covers only one subject / answers only one question.
+* A topic contains enough information to be an independent unit of information.
+* A topic is not context-sensitive. This means that the information preceding or following the topic,
+is irrelevant.
+* One file contains only one topic.
 
-Топик должен содержать по меньшей мере корневой элемент с атрибутом id и элемент **title**, чтобы быть валидным, например:
+To be valid, a topic must contain at least a root element with an id attribute and a **title** element,
+for example:
 
 ```html
 <topic id="creation">
-   <title>Создание нового топика</title>
+   <title>Creating a net topic</title>
 </topic>
 ```
 
-### Классы DITA
+### DITA classes
 
-Все топики в DITA принадлежат к определенным классам. По умолчанию стандарт DITA насчитывает четыре типа топиков:
+All topics in DITA belong to specific classes. By default, the DITA standard has four types of topics:
 
-* **Топик-концепт**. Содержит концептуальную информацию и отвечает на вопрос Почему?
-* **Топик-задача**. Содержит операционные иструкции и отвечает на вопрос **Как?**
-* **Топик-справка**. Содержит справочную информацию и отвечает на вопрос **Что?**
-* **Топик-словарная запись**. Содержит описание термина и отвечает на вопрос **Что это означает?**
+* **Topic-concept** contains conceptual information and answers the question **Why**?
+* **Topic-Task** contains operational instructions and answers the question **How**?
+* **Topic Help** contains background information and answers the question **What**?
+* **Vocabulary Topic** contains a description of the term and answers the question **What does it mean**?
 
-Каждый из типов топиков предназначен для создания определенного контента. В зависимости от типа топика различается
-набор элементов, разрешенных для использования.
+Each type of topic is designed to create specific content. Depending on the type of topic, the set of
+elements allowed to be used differs.
 
 ```html
-<topic id="beispiel">
-   <shortdesc>Краткое описание топика</shortdesc>
-   <title>Название топика</title>
-   <body>Контейнер для других элементов.</body>
+<topic id="example">
+   <shortdesc>Brief topic description</shortdesc>
+   <title>Topic title</title>
+   <body>This is a container for other elements.</body>
 </topic>
 ```
 
-Корневой элемент с атрибутом id и элемент **title** является единственным обязательным элементом, который должен
-содержаться в любом топике. Элемент **shortdesc** содержит краткое описание топика. Название элемента **body**,
-содержащего большинство других элементов, меняется в зависимости от типа топика. Например, в топике-задаче
-используется элемент **taskbody**.
+The root element with the **id** attribute and the **title** element are the only mandatory elements
+that must be contained in any topic. Element **shortdesc** contains a brief description of the topic.
+The name of element **body**, which contains most of the other elements, varies depending on the type
+of the topic. For example, in the task topic the **taskbody** element is used.

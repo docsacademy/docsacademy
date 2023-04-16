@@ -51,38 +51,26 @@ copyright = "Copyright &copy; 2023 by DocsAcademy"
 
 # banner
 [Languages.en.params.banner]
-title = "Обучающие курсы для Вас"
-subtitle = "Markdown, XML, DITA, SDL Trados Studio и другие"
+title = "Courses for you"
+subtitle = "Markdown, XML, DITA, SDL Trados Studio and more"
 bg_image = "images/banner.jpg"
-# placeholder = "Введите текст для поиска"
+# placeholder = "Enter your term"
 
 
 ################## english navigation #################
 [[Languages.en.menu.main]]
-name = "Главная"
+name = "Main"
 url = ""
 weight = 1
 
 # Dropdown menu
 [[Languages.en.menu.main]]
 weight = 4
-name = "Руководства"
+name = "Tutorials"
 hasChildren = true
 
   [[Languages.en.menu.main]]
-  parent = "Руководства"
-  name = "Markdown"
-  url = "markdown/"
-  weight = 1
-
-  [[Languages.en.menu.main]]
-  parent = "Руководства"
+  parent = "Tutorials"
   name = "DITA"
   url = "dita/"
   weight = 2
-
-  [[Languages.en.menu.main]]
-  parent = "Руководства"
-  name = "SDL Trados Studio"
-  url = "sdl-trados-studio/"
-  weight = 3
