@@ -74,3 +74,9 @@ hasChildren = true
   name = "DITA"
   url = "dita/"
   weight = 2
+
+  [[Languages.en.menu.main]]
+  parent = "Tutorials"
+  name = "GitBook"
+  url = "git-book/"
+  weight = 2
