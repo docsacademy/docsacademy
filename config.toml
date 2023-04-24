@@ -51,8 +51,8 @@ copyright = "Copyright &copy; 2023 by DocsAcademy"
 
 # banner
 [Languages.en.params.banner]
-title = "Courses for you"
-subtitle = "Markdown, XML, DITA, SDL Trados Studio and more"
+title = "Tutorials for you"
+subtitle = "GitBook, DITA, and more"
 bg_image = "images/banner.jpg"
 # placeholder = "Enter your term"
 

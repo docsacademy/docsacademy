@@ -2,7 +2,7 @@
 title: "What is GitBook"
 date: 2023-04-22T11:02:05+06:00
 icon: "ti-package"
-description: "Make your content more effective"
+description: "Show your documentation to the world"
 type : "docs"
 ---
 
