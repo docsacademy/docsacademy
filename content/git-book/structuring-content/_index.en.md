@@ -3,7 +3,7 @@ title: "Structuring content in GitBook"
 date: 2023-04-15T11:02:05+06:00
 lastmod: 2023-02-10T11:02:05+06:00
 weight: 4
-draft: true
+draft: false
 # search related keywords
 keywords: [""]
 ---
