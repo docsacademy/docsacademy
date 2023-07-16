@@ -1,5 +1,0 @@
-items:
-  - title: Google Analytics (functional)
-    description: We use cookies to improve user experience. This may include taking some insight into the number of people that visit our website or keeping a log with website requests including your IP address. If you do not agree to this or have any concerns about this, please close this website.
-    is_functional: true
-    script_file: ga.js
